@@ -8,11 +8,11 @@
     text-align: center;
 }
 
-.result__text_correct{
+.result__text-content{
     color: #ff0000;
 }
 
-.result__text_incorrect{
+.result__text-incorrect{
     color: #0000ff;
 }
 
@@ -21,11 +21,11 @@
 }
 
 .answer-table__inner{
-    width: 100%;
+    width:100%;
 }
 
-.answer-table__herder{
-    padding:15px;
+.answer-table__header{
+    padding: 15px;
     width: 20%;
     border-bottom: 1px solid #ddd;
     background-color: #eee;
@@ -39,5 +39,5 @@
 
 .answer-table__row:last-child .answer-table__header,
 .answer-table__row:last-child .answer-table__text{
-    border-bottom-width: 0;
+    border-bottom-width: 0,
 }

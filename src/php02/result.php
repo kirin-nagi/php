@@ -1,9 +1,8 @@
 <?php
+
 require_once('functions/search_city_time.php');
-
 $tokyo = searchCityTime('東京');
-
-$city = htmlspecialchars($_GET['city'], ENT_QUOTES);
+$city = htmlspecialchars($_GET['city'],ENT_QUOTES);
 $comparison = searchCityTime($city);
 ?>
 
@@ -27,9 +26,8 @@ $comparison = searchCityTime($city);
         World Clock
       </a>
     </div>
-</header>
-
-<main>
+  </header>
+  <main>
     <div class="result__content">
         <div class="result-cards">
             <div class="result-card">
@@ -37,12 +35,8 @@ $comparison = searchCityTime($city);
                     <img class="result-card__img" src="img/<?php echo $tokyo['img']?>" alt="国旗">
                 </div>
                 <div class="result-card__body">
-                    <p class="result-card__city">
-                        <?php echo $tokyo['name']?>
-                    </P>
-                    <p class="result-card__time">
-                        <?php echo $tokyo['time']?>
-                    </p>
+                    <p class="result-card__city"><?php echo $tokyo['name']?></p>
+                    <p class="result-card__time"><?php echo $tokyo['time']?></p>
                 </div>
             </div>
             <div class="result-card">
@@ -60,7 +54,7 @@ $comparison = searchCityTime($city);
             </div>
         </div>
     </div>
-</main>
+  </main>
 </body>
 
 </html>
