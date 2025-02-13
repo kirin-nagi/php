@@ -4,6 +4,8 @@ require_once('functions/search_city_time.php');
 $tokyo = searchCityTime('東京');
 $city = htmlspecialchars($_GET['city'],ENT_QUOTES);
 $comparison = searchCityTime($city);
+$city = htmlspecialchars($_GET['city'],ENT_QUOTES);
+$comparison = searchCityTime($city);
 ?>
 
 <!DOCTYPE html>
