@@ -1,10 +1,10 @@
-.quiz__content {
+.quiz__content{
     margin: 0 auto;
     padding: 60px 15px;
     max-width: 1230px;
 }
 
-.question {
+.question{
     margin: 0 auto;
     padding: 10px 20px;
     width: 550px;
@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-.question__text {
+.question__text{
     color: #fff;
     text-align: left;
 }
@@ -26,7 +26,7 @@
 }
 
 .quiz-form__item{
-    margin-bottom: 30ox;
+    margin-bottom: 30px;
 }
 
 .quiz-form__group{
@@ -37,13 +37,6 @@
 
 .quiz-form__radio{
     display: none;
-}
-
-.quiz-form__label{
-    display: block;
-    padding: 20px;
-    width: 100%;
-    cursor: pointer;
 }
 
 .quiz-form__radio:checked+label{
@@ -61,7 +54,7 @@
     width: 550px;
 }
 
-.quiz-form__botton-submit{
+.quiz-form__button-submit{
     padding: 10px;
     width: 100%;
     height: 50px;
@@ -70,8 +63,4 @@
     background: #000;
     color: #fff;
     cursor: pointer;
-}
-
-.quiz-form__radio:checked+label{
-    background: #ddd;
 }

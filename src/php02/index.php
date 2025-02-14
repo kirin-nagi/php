@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <header class="header">
         <div class="header__inner">
@@ -16,30 +17,28 @@
             </a>
         </div>
     </header>
-
-    <main>
+<main>
     <div class="search-form__content">
         <div class="search-form__heading">
-        <h2>日本と世界の時間の比較</h2>
-    </div>
+            <h2>日本の世界の時間を比較<h2>
+        </div>
     <form class="search-form" action="result.php" method="get">
         <div class="search-form__item">
-            <select class="search-form__item-select" name="city">
-                <option value="シドニー">シドニー</option>
-                <option value="上海">上海</option>
-                <option value="モスクワ">モスクワ</option>
-                <option value="ロンドン">ロンドン</option>
-                <option value="ヨハネスブルグ">ヨハネスブルグ</option>
-                <option value="ニューヨーク">ニューヨーク</option>
-            </select>
+        <div class="search-form__item-select" name="city">
+        <label><input type="checkbox" name="シドニー"  value="シドニー">シドニー</label>
+        <label><input type="checkbox" name="上海" value="上海">上海</label>
+        <label><input type="checkbox" name="モスクワ" value="モスクワ">モスクワ</label>
+        <label><input type="checkbox" name="ロンドン" value="ロンドン">ロンドン</label>
+        <label><input type="checkbox" name="ヨハネスブルグ" value="ヨハネスブルグ">ヨハネスブルグ</label>
+        <label><input type="checkbox" name="ニューヨーク" value="ニューヨーク">ニューヨーク</label>
+        </div>
         </div>
         <div class="search-form__button">
-        <button class="search-form__button-submit" type="submit">
-            検索
-        </button>
+        <button class="search-form__button-submit" type="submit">検索</button>
         </div>
     </form>
-  </div>
-    </main>
+    </div>
+</main>
 </body>
+
 </html>
